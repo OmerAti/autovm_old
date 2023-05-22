@@ -56,4 +56,4 @@ cd /tmp && echo -e "*/5 * * * * php /var/www/autovm/yii cron/index\n0 0 * * * ph
 address=$(ip address | grep "scope global" | grep -Po '(?<=inet )[\d.]+')
 
 # MySQL details
-clear && echo -e "\033[104mThe platform installation has been completed successfully.\033[0m\n\nMySQL information:\nUsername: autovm\nDatabase: autovm\nPassword: \033[0;32m$password\033[0m\n\n\nLogin information:\nAddress: http://$address\nUsername: admin@admin.com\nPassword: admin\n\nAttention: Please run \033[0;31mmysql_secure_installation\033[0m for the security"
+clear && echo -e "\033[104mPlatform kurulumu basariyla tamamlandi.\033[0m\n\nMySQL bilgileri:\nKullanici Adi: autovm\nDatabase: autovm\nSifre: \033[0;32m$password\033[0m\n\n\nLogin Bilgileri:\nAddress: http://$address\nUsername: admin@admin.com\nSifre: admin\n\nAttention: Lutfen Bu Komutu Calistirin \033[0;31mmysql_secure_installation\033[0m for the security"
