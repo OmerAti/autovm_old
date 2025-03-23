@@ -21,6 +21,6 @@ class Asset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
         'yii\bootstrap\BootstrapPluginAsset',
-        'app\assets\FontAwesomeAsset',
+        'rmrevin\yii\fontawesome\CdnProAssetBundle',
     ];
 }
