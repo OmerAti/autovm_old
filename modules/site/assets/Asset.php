@@ -24,6 +24,6 @@ class Asset extends AssetBundle
 
     public $depends = [
         'yii\web\YiiAsset',
-        'app\assets\FontAwesomeAsset',
+        'rmrevin\yii\fontawesome\CdnProAssetBundle',
     ];
 }
